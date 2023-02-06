@@ -296,4 +296,55 @@ table {
     font-size: 18px;
 }
 
-.second-info__badge
+.second-info {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-info__badge {
+    display: flex;
+    gap: 30px;
+}
+
+.second-info__badge p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    color: white;
+    padding: 3px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #FF6060;
+    border-radius: 10px;
+}
+
+.third-info {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-info__card {
+    width: 45%;
+}
+
+.third-info__card__header {
+    padding: 15px 20px 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6060;
+    border-radius: 10px;
+}
+
+.third-info__card__header h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.third-info__card__header i {
+    font-size: 20px;
+}
