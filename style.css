@@ -1,0 +1,299 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*************** Fin du reset ***************/
+
+* {
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 40px 100px 0px 100px;
+}
+
+/*************** Header ***************/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.navbar__link a {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.navbar__link :nth-child(2) {
+    padding-left: 57px;
+}
+
+/*************** Body ***************/
+
+.bg-presentation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.bg-presentation img {
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    filter: brightness(70%);
+    width: 100%;
+}
+
+.bg-presentation h1 {
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    font-size: 48px;
+    color: white;
+}
+
+.all-rent {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.all-rent__card {
+    text-decoration: none;
+    background-color: #FF6060;
+    background: linear-gradient(180deg, #FF6060 0%, #6e2929 100%);
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    padding: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.all-rent__card p {
+    color: white;
+    font-size: 18px;
+}
+
+
+/*************** A PROPOS ***************/
+
+.charte {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1050px;
+    gap: 30px;
+}
+
+.charte__card {
+    padding: 10px 30px 10px 17px;
+    background-color: #FF6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charte__card h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.charte__card i {
+    color: white;
+    font-size: 20px;
+}
+
+/*************** FICHE LOGEMENT ***************/
+
+.img-logement {
+    margin-top: 2%;
+    height: 300px;
+    background-color: #FF6060;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}
+
+.first-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-info h1 {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.first-info__renter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-info__renter p {
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 30px;
+}
+
+.first-info__renter__img {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+    background-color: #C4C4C4;
+}
+
+.location {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.second-info__badge
